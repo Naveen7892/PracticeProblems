@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CovarianceContravariance.cs" />
     <Compile Include="DelegateMulticast.cs" />
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="FuncActionPredicate.cs" />

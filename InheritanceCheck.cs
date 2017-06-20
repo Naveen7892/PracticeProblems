@@ -39,7 +39,7 @@ namespace PracticeProblems {
          ab.aMethod1();
          // Console.WriteLine (ab.b1); // Throws error - Error 1	'PracticeProblems.A' does not contain a definition for 'b1' and no extension method 'b1' accepting a first argument of type 'PracticeProblems.A' could be found (are you missing a using directive or an assembly reference?)	C:\Users\naveenkumar\documents\visual studio 2013\Projects\PracticeProblems\InheritanceCheck.cs	15	31	PracticeProblems
 
-         Console.WriteLine ("---------CLASS B: A, accesses Notthing----------");
+         Console.WriteLine ("---------CLASS B: A, accesses Nothing----------");
          Console.WriteLine ("Not possible");
          // B ba = new A (); // Throws error because we can't create instance of parent class from type child
 
