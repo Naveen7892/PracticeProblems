@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 #endregion References
 
-// In C#, covariance and contravariance enable "implicit reference conversion" for array types, delegate types, and generic type arguments.Covariance preserves assignment compatibility and contravariance reverses it.
+// In C#, covariance and contravariance enable "implicit reference conversion" for array types, delegate types, and generic type arguments.Covariance preserves "assignment compatibility" and contravariance reverses it.
 
 namespace PracticeProblems {
    class CovarianceContravariance {
@@ -20,7 +20,7 @@ namespace PracticeProblems {
       public delegate Small covarianceDel (Big bg);
       public delegate Small contravarianceDel (Big bg);
 
-      static void Main (string[] args) {
+      static void MainCovariance (string[] args) {
 
          #region FromEricLippert
 

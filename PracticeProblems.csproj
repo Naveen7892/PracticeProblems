@@ -48,6 +48,8 @@
     <Compile Include="FuncActionPredicate.cs" />
     <Compile Include="GcdOfFibo.cs" />
     <Compile Include="InheritanceCheck.cs" />
+    <Compile Include="LambaExpression.cs" />
+    <Compile Include="PointLieOn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RefOut.cs" />
   </ItemGroup>
